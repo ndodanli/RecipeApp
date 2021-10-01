@@ -1,0 +1,23 @@
+﻿
+<div id="layoutSidenav_nav">
+    <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <div class="sb-sidenav-menu">
+            <div class="nav">
+                <div class="sb-sidenav-menu-heading">User</div>
+                <a class="nav-link" href="@Url.Action("index","admin")">
+                    Accounts
+                </a>
+                <a class="nav-link" href="@Url.Action("roles","admin")">
+                    Roles
+                </a>
+                <div class="sb-sidenav-menu-heading">Recipe</div>
+                <a class="nav-link collapsed" href="@Url.Action("recipes","admin")" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                    Recipes
+                </a>
+                <a class="nav-link collapsed" href="@Url.Action("categories","admin")" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                    Recipe Categories
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Recipe Page";
+}
+
+<section id="recipe">
+    <div class="container">
+        <div class="row">
+            <!-- Title -->
+            <div class="col-12">
+                <h2 id="recipe-name"></h2>
+            </div>
+        </div>
+        <div class="row vertical-align">
+            <div class="col-12">
+                <!-- Picture -->
+                <div class="col-md-8 pull-left wow swing">
+                    <img id="recipe-image" src="images/bbq-pork-ribs.jpg" class="recipe-picture" />
+                </div>
+                <!-- Info -->
+                <div class="col-md-4 pull-right wow lightSpeedIn">
+                    <div class="recipe-info ml-5">
+                        <h3>Info</h3>
+                        <!-- Difficulty -->
+                        <div class="row">
+                            <div class="col-2 text-center">
+                                <i class="fa fa-area-chart" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-6">Category</div>
+                            <div id="recipe-category" class="col-4">
+
+                            </div>
+                        </div>
+                        <!-- Serves -->
+                        <div class="row">
+                            <div class="col-2 text-center">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-6">Servings</div>
+                            <div id="recipe-servings" class="col-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ingredients -->
+        <div class="row wow slideInUp">
+            <div class="col-12">
+                <div class="recipe-ingredients">
+                    <h3>Ingredients</h3>
+                    <dl id="recipe-ingredients" class="ingredients-list">
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- Directions -->
+        <div class="row wow slideInUp">
+            <div class="col-12">
+                <div class="recipe-directions">
+                    <h3>Directions</h3>
+                    <ol id="recipe-directions">
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- Back to recipes -->
+        <div class="row wow rollIn">
+            <div class="col-12 text-center">
+                <a href="/">
+                    <i class="fa fa-backward" aria-hidden="true"></i>
+                    Go to back to recipes.
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts{
+    <script src="~/js/recipe.js"></script>
+}

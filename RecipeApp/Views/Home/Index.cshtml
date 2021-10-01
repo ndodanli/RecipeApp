@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section id="categories">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Categories</h2>
+            </div>
+        </div>
+        <div class="row wow zoomIn">
+            <div id="category-items" class="row wow zoomIn">
+            </div>
+        </div>
+        <div class="row wow zoomIn">
+            <div id="show-all" class="col-12 text-center show-all">
+                <div class="category-item text-center">
+                    <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                    <br />
+                    Show All
+                </div>
+            </div>
+        </div>
+        <div class="row wow zoomIn">
+            <div id="most-viewed" class="col-12 text-center show-all">
+                <div class="category-item text-center">
+                    <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                    <br />
+                    Most Viewed
+                </div>
+            </div>
+        </div>
+        <div class="row wow zoomIn">
+            <div id="last-viewed" class="col-12 text-center show-all">
+                <div class="category-item text-center">
+                    <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                    <br />
+                    Last Viewed
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="items">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Recipes</h2>
+            </div>
+        </div>
+        <div id="recipe-items" class="row">
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script src="~/js/main_page.js"></script>
+}
