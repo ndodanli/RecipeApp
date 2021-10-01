@@ -1,6 +1,7 @@
 # RecipeApp
 
 **Home Page**
+
 Ana sayfa url:
 >https://localhost:44352/
 
@@ -9,6 +10,7 @@ Recipe url:
 
 
 **Admin Page**
+
 Admin ana sayfa url:
 >https://localhost:44352/admin
 
