@@ -2,19 +2,19 @@
 
 **Home Page**
 
-Ana sayfa url:
+Ana sayfa url(IIS ile çalıştırıldığında, port:44352):
 >https://localhost:44352/
 
-Recipe url:
+Recipe url(IIS ile çalıştırıldığında, port:44352):
 >https://localhost:44352/recipe/slugName
 
 
 **Admin Page**
 
-Admin ana sayfa url:
+Admin ana sayfa url(IIS ile çalıştırıldığında, port:44352):
 >https://localhost:44352/admin
 
-Admin login sayfası url:
+Admin login sayfası url(IIS ile çalıştırıldığında, port:44352):
 >https://localhost:44352/admin/login
 
 Admin hesap bilgileri:
