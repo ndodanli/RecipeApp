@@ -19,10 +19,12 @@ Admin login sayfası url:
 
 Admin hesap bilgileri:
 >Kullanıcı adı: admin
+
 >Kullanıcı parolası: admin
 
 Moderatör hesap bilgileri:
 >Kullanıcı adı: moderator
+
 >Kullanıcı parolası: moderator
 
 **Moderatör özellikleri**
