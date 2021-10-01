@@ -19,6 +19,7 @@ using IConfigE = Microsoft.Extensions.Configuration;
 using System.Linq;
 using RecipeApp.Utility;
 using RecipeApp.Dtos;
+using RecipeApp.Constants;
 
 namespace RecipeApp.Services
 {
@@ -88,6 +89,19 @@ namespace RecipeApp.Services
             return role.Id;
         }
 
+        public async void seedDataIfEmpty()
+        {
+            List<AccountModel> accounts =await  users.Find(_ => true)
+                .ToListAsync();
+            if(accounts.Count == 0)
+            {
+                await AddRoleAsync(new AddRoleDto() { Name = "admin", Permissions = SeedPermissions.defaultAdminPermissions });
+                await AddRoleAsync(new AddRoleDto() { Name = "moderator", Permissions = SeedPermissions.defaultModeratorPermissions });
+                await AddUserAsync(new AddUserDto() { Username = "admin", Password = "admin", RoleName = "admin" });
+                await AddUserAsync(new AddUserDto() { Username = "moderator", Password = "moderator", RoleName = "moderator" });
+            }
+        }
+
         #region User Operations
 
         /**
@@ -151,14 +165,13 @@ namespace RecipeApp.Services
             if (user != null)
             {
                 UtilityMethods.UpdateProps<AccountModel>(user, userModel);
-            }
+                if (userDto.Password != null)
+                    user.Password = BC.HashPassword(userDto.Password);
 
-            if (userDto.Password != null)
-                user.Password = BC.HashPassword(userDto.Password);
-
-            if (userDto.RoleName != null)
-            {
-                user.RoleId = await GetRoleIdByNameAsync(userDto.RoleName);
+                if (userDto.RoleName != null)
+                {
+                    user.RoleId = await GetRoleIdByNameAsync(userDto.RoleName);
+                }
             }
 
             FilterDefinition<AccountModel> filter = Builders<AccountModel>.Filter.Eq(x => x.Id, userDto.Id);

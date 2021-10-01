@@ -2921,11 +2921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\euler\\source\\repos\\RecipeApp\\RecipeApp\\RecipeApp.csproj",
+      "projectUniqueName": "C:\\Users\\euler\\Desktop\\RecipeApp\\RecipeApp\\RecipeApp.csproj",
       "projectName": "RecipeApp",
-      "projectPath": "C:\\Users\\euler\\source\\repos\\RecipeApp\\RecipeApp\\RecipeApp.csproj",
+      "projectPath": "C:\\Users\\euler\\Desktop\\RecipeApp\\RecipeApp\\RecipeApp.csproj",
       "packagesPath": "C:\\Users\\euler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\euler\\source\\repos\\RecipeApp\\RecipeApp\\obj\\",
+      "outputPath": "C:\\Users\\euler\\Desktop\\RecipeApp\\RecipeApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\euler\\AppData\\Roaming\\NuGet\\NuGet.Config",

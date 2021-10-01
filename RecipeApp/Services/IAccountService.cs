@@ -30,5 +30,7 @@ namespace RecipeApp.Services
 
         Task<ActionResult> AddRoleAsync(AddRoleDto roleDto);
 
+        void seedDataIfEmpty();
+
     }
 }

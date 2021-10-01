@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Agw2upoBs1EISOfIC4vY09HzNvCWZAHbGKWkhkIQhs7LAQ+gxy+y7AtBJJ76u9i5IWQNhQqTrAxp4cCbcm0X0w==",
+  "dgSpecHash": "0W3prvewEc2b8czIdSgmmNxOe/0wtjY/i4Uf2V6uTc+ksi5OgyCpkxFDvaGTVBEpJWGwKt9nNM3OF7UL/kb66w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\euler\\source\\repos\\RecipeApp\\RecipeApp\\RecipeApp.csproj",
+  "projectFilePath": "C:\\Users\\euler\\Desktop\\RecipeApp\\RecipeApp\\RecipeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\euler\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\euler\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
