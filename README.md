@@ -32,5 +32,10 @@ Moderatör hesap bilgileri:
 - Yemek tarifi oluşturabilir, görebilir, güncelleyebilir ve silebilir.
 - Kategori oluşturabilir, görebilir, güncelleyebilir ve silebilir.
 
-**Not:** Rollerin yetkileri metod bazlı belirlenebilir(örn. ControllerName1.MethodName1,ControllerName2,MethodName2,ControllerName3,MethodName3)
 
+**Redis**
+
+Redis:
+>Configuration: 127.0.0.1:6379
+
+**Not:** Rollerin yetkileri metod bazlı belirlenebilir(örn. ControllerName1.MethodName1,ControllerName2,MethodName2,ControllerName3,MethodName3).
