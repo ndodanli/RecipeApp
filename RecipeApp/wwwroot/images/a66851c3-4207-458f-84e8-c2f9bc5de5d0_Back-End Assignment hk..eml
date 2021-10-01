@@ -1,0 +1,177 @@
+MIME-Version: 1.0
+Date: Mon, 27 Sep 2021 10:46:10 +0300
+From: =?utf-8?Q?Yal=C4=B1m_KANKAYA?= <ykankaya@internative.net>
+Subject: Back-End Assignment hk.
+Thread-Topic: Back-End Assignment hk.
+Message-ID: <435741632728737@mail.yandex.com.tr>
+To: "ndodanli14@gmail.com" <ndodanli14@gmail.com>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<div><div style=3D"background-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,0);=
+ font-family:'arial' ,sans-serif; font-size:15px; font-style:normal; font-w=
+eight:400; text-decoration-style:initial; text-indent:0px; text-transform:n=
+one; white-space:normal; word-spacing:0px">Merhabalar,</div><div style=3D"b=
+ackground-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,0); font-family:'arial'=
+ ,sans-serif; font-size:15px; font-style:normal; font-weight:400; text-deco=
+ration-style:initial; text-indent:0px; text-transform:none; white-space:nor=
+mal; word-spacing:0px">&nbsp;</div><div style=3D"background-color:rgb(255 ,=
+255 ,255); color:rgb(0 ,0 ,0); font-family:'arial' ,sans-serif; font-size:1=
+5px; font-style:normal; font-weight:400; text-decoration-style:initial; tex=
+t-indent:0px; text-transform:none; white-space:normal; word-spacing:0px">As=
+signment konusu a=C5=9Fa=C4=9F=C4=B1daki gibidir;</div><div style=3D"backgr=
+ound-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,0); font-family:'arial' ,san=
+s-serif; font-size:15px; font-style:normal; font-weight:400; text-decoratio=
+n-style:initial; text-indent:0px; text-transform:none; white-space:normal; =
+word-spacing:0px">&nbsp;</div><div style=3D"background-color:rgb(255 ,255 ,=
+255); color:rgb(0 ,0 ,0); font-family:'arial' ,sans-serif; font-size:15px; =
+font-style:normal; font-weight:400; text-decoration-style:initial; text-ind=
+ent:0px; text-transform:none; white-space:normal; word-spacing:0px"><p styl=
+e=3D"line-height:16.2px; margin-bottom:0.28cm">Assignment kapsam=C4=B1nda t=
+emel olarak kullan=C4=B1lmas=C4=B1 talep edilen yap=C4=B1y=C4=B1 =C3=B6zetm=
+ek gerekir ise son k=C4=B1s=C4=B1mda belirtilen site ve admin panel temalar=
+=C4=B1n=C4=B1 kullanarak admin panel ile birlikte temel olarak bir websites=
+i programlamak olacakt=C4=B1r.</p><p style=3D"line-height:16.2px; margin-bo=
+ttom:0.28cm">Proje kapsam=C4=B1nda beklenen sayfalar</p><ol><li><p style=3D=
+"line-height:16.2px; margin-bottom:0.28cm">Anasayfa (Son tarifler, En cok g=
+=C3=B6r=C3=BCnt=C3=BClenen tarifler)</p></li><li><p style=3D"line-height:16=
+.2px; margin-bottom:0.28cm">Tarifler</p></li><li><p style=3D"line-height:16=
+.2px; margin-bottom:0.28cm">Tarif Detay</p><ol type=3D"a"><li><p style=3D"l=
+ine-height:16.2px; margin-bottom:0.28cm">Toplamda 3 ekrandan olu=C5=9Facak =
+website ile ilgi URL yap=C4=B1s=C4=B1n=C4=B1n d=C3=BCzg=C3=BCn olmas=C4=B1,=
+ kullan=C4=B1c=C4=B1 dostu bir kullan=C4=B1m, tarifler ekran=C4=B1nda krite=
+rlere g=C3=B6re filtreleme vb fonksiyonlar beklenmektedir.</p></li><li><p s=
+tyle=3D"line-height:16.2px; margin-bottom:0.28cm">Header &amp; Footer gibi =
+k=C4=B1s=C4=B1mlar ViewComponent olarak tasarlanmal=C4=B1.</p></li></ol></l=
+i><li><p style=3D"line-height:16.2px; margin-bottom:0.28cm">Admin Panel</p>=
+<ol type=3D"a"><li><p style=3D"line-height:16.2px; margin-bottom:0.28cm">Ta=
+rifler</p><ol type=3D"i"><li><p style=3D"line-height:16.2px; margin-bottom:=
+0.28cm">Tarif entitysi i=C3=A7in =C3=B6rnek al=C4=B1nabilecek yemek tarifle=
+ri sitelerinin incelenmesi size aittir.</p></li><li><p style=3D"line-height=
+:16.2px; margin-bottom:0.28cm">Temel propertyler (Title, Image, Slug, Categ=
+oryID) vb olup ihtiyaca g=C3=B6re =C3=B6zelle=C5=9Ftirilebilir.</p></li></o=
+l></li><li><p style=3D"line-height:16.2px; margin-bottom:0.28cm">Tarif Ekle=
+ / D=C3=BCzenle / Sil =E2=80=93 CRUD i=C5=9Flemler (Tarif sil ve listele gi=
+bi fonksiyonlarda AJAX ile kullan=C4=B1m)</p></li><li><div>OPS=C4=B0YONEL o=
+larak =C3=87oklu dil deste=C4=9Fi olmal=C4=B1 ve admin panelden dil ekleyeb=
+ilmeli ve metin alanlar=C4=B1 d=C3=BCzenlenebilmeli.</div></li></ol></li><l=
+i><p style=3D"line-height:16.2px; margin-bottom:0.28cm">Temel Kullan=C4=B1c=
+=C4=B1 =C3=96zelli=C4=9Fi</p><ol type=3D"a"><li><p style=3D"line-height:16.=
+2px; margin-bottom:0.28cm">Giri=C5=9F =C3=A7=C4=B1k=C4=B1=C5=9F i=C5=9Fleml=
+eri yap=C4=B1lmal=C4=B1 ve Admin panel i=C3=A7in Role bazl=C4=B1 yetkilendi=
+rme yap=C4=B1lmal=C4=B1. (Admin ve Moderat=C3=B6r rolleri olabilir, admin m=
+oderat=C3=B6r hesaplar=C4=B1 a=C3=A7abilir, moderat=C3=B6r ise tarif ekleye=
+bilir)</p></li><li><p style=3D"line-height:16.2px; margin-bottom:0.28cm">Cu=
+stom Rol olu=C5=9Fturma ve yetkiler olu=C5=9Fturulabilmeli ve OPS=C4=B0YONE=
+L olarak&nbsp;her action method i=C3=A7in atamalar=C4=B1 yap=C4=B1labilmeli=
+ (=C3=96rn: Yemek Tarifi Ekleyebilir / Ekleyemez),</p></li></ol></li></ol><=
+p style=3D"line-height:16.2px; margin-bottom:0.28cm">Kullan=C4=B1lmas=C4=B1=
+ beklenen teknolojiler</p><ol><li><p style=3D"line-height:16.2px; margin-bo=
+ttom:0.28cm">.NET Core MVC 3.1 ya da .NET 5</p></li><li><p style=3D"line-he=
+ight:16.2px; margin-bottom:0.28cm">MongoDB</p></li><li><p style=3D"line-hei=
+ght:16.2px; margin-bottom:0.28cm">Jquery (AJAX)</p></li><li><p style=3D"lin=
+e-height:16.2px; margin-bottom:0.28cm">Temel Seviye HTML &amp; CSS</p></li>=
+</ol><p style=3D"line-height:16.2px; margin-bottom:0.28cm">&nbsp; &nbsp; &n=
+bsp;5- OPS=C4=B0YONEL olarak Redis (tarifler redis =C3=B6nbelle=C4=9Finden =
+gelmeli ve yeni tarif girildi=C4=9Finde redis g=C3=BCncellenmeli)</p><p sty=
+le=3D"line-height:16.2px; margin-bottom:0.28cm">&nbsp; &nbsp; &nbsp;6. Auth=
+entication i=C5=9Fleminde jwt token yap=C4=B1s=C4=B1 kullan=C4=B1lmal=C4=B1=
+.</p><p style=3D"line-height:16.2px; margin-bottom:0.28cm">&nbsp; &nbsp; &n=
+bsp;7. Admin Panel Area =C5=9Feklinde haz=C4=B1rlanmal=C4=B1</p><p style=3D=
+"line-height:16.2px; margin-bottom:0.28cm">&nbsp; &nbsp; &nbsp;8. Site tara=
+f=C4=B1nda Url Friendly bir yap=C4=B1 olmal=C4=B1 (=C3=B6rn : /tarifler/kar=
+niyarik-tarifi)</p><p style=3D"line-height:16.2px; margin-bottom:0.28cm">Ku=
+llan=C4=B1labilir Temalar</p><ol><li><p style=3D"line-height:16.2px; margin=
+-bottom:0.28cm">Site</p></li></ol><p style=3D"line-height:16.2px; margin-bo=
+ttom:0.28cm; margin-left:4.42cm">a.&nbsp;<font color=3D"#000080"><u><a href=
+=3D"https://github.com/jraleman/recipe-book-html-template" rel=3D"noopener =
+noreferrer" style=3D"color:rgb(34 ,34 ,204)">https://github.com/jraleman/re=
+cipe-book-html-template</a></u></font></p><ol><li><p style=3D"line-height:1=
+6.2px; margin-bottom:0.28cm">Admin Panel</p><ol type=3D"a"><li><p style=3D"=
+line-height:16.2px; margin-bottom:0.28cm"><font color=3D"#000080"><u><a hre=
+f=3D"https://github.com/ColorlibHQ/AdminLTE" rel=3D"noopener noreferrer" st=
+yle=3D"color:rgb(34 ,34 ,204)">https://github.com/ColorlibHQ/AdminLTE</a></=
+u></font></p></li></ol></li></ol><p style=3D"line-height:16.2px; margin-bot=
+tom:0.28cm">&nbsp;</p><p style=3D"line-height:16.2px; margin-bottom:0.28cm"=
+><font color=3D"#000080"><u>3 ekim pazartesi g=C3=BCn=C3=BCne kadar tamam=
+=C4=B1n=C4=B1 veya yapabildi=C4=9Finiz kadar=C4=B1n=C4=B1 iletebilirseniz s=
+evinirim</u></font></p><p style=3D"line-height:16.2px; margin-bottom:0.28cm=
+">(not: e=C4=9Fer mongodb konusunda tecr=C3=BCbeniz yok ise ms sql gibi ba=
+=C5=9Fka bir veritaban=C4=B1 da kullanabilirsiniz. ama mongodb kullan=C4=B1=
+rsan=C4=B1z size art=C4=B1 puan getirecektir)</p><p style=3D"line-height:16=
+.2px; margin-bottom:0.28cm">(not 2 : OPS=C4=B0YONEL olan maddeler size art=
+=C4=B1 puan getirecektir ama yap=C4=B1lmas=C4=B1 zorunlu de=C4=9Fildir.)</p=
+><p style=3D"line-height:16.2px; margin-bottom:0.28cm">&nbsp;</p><p style=
+=3D"line-height:16.2px; margin-bottom:0.28cm">kolay gelsin iyi =C3=A7al=C4=
+=B1=C5=9Fmalar.</p></div></div><div>&nbsp;</div><div><img src=3D"https://av=
+atars.mds.yandex.net/get-mail-signature/200369/bbe313aa1234b75b7888b5c3e9c1=
+8039/orig" style=3D"height:114px; width:209px"><br><strong style=3D"color:#=
+000000"><span style=3D"color:#999999; font-family:'helvetica' ,sans-serif; =
+font-size:7.5pt">Yal=C4=B1m KANKAYA</span></strong><span style=3D"font-fami=
+ly:'helvetica' ,sans-serif; font-size:7.5pt"><font color=3D"#999999">&nbsp;=
+| Project Manager</font><br><font color=3D"#999999">Mobile:</font></span><s=
+pan style=3D"color:#999999; font-family:'helvetica' ,sans-serif; font-size:=
+7.5pt">&nbsp;&#43;90 544 540 60&nbsp;17</span><br><span style=3D"font-famil=
+y:'helvetica' ,sans-serif; font-size:7.5pt"><font color=3D"#999999">E-Mail =
+: ykankaya</font><font color=3D"#0000ff"><u><a href=3D"mailto:cerkin@intern=
+ative.net" rel=3D"noopener noreferrer">@internative.net</a></u></font></spa=
+n></div><div style=3D"background-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,=
+0); font-family:'calibri' ,sans-serif; font-size:11pt; font-style:normal; f=
+ont-weight:400; line-height:8.25pt; margin:0cm; text-decoration-style:initi=
+al; text-indent:0px; text-transform:none; white-space:normal; word-spacing:=
+0px"><strong><span style=3D"color:#999999; font-family:'helvetica' ,sans-se=
+rif; font-size:7.5pt">TR Office:</span></strong></div><div style=3D"backgro=
+und-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,0); font-family:'calibri' ,sa=
+ns-serif; font-size:11pt; font-style:normal; font-weight:400; line-height:8=
+.25pt; margin:0cm; text-decoration-style:initial; text-indent:0px; text-tra=
+nsform:none; white-space:normal; word-spacing:0px"><strong><span style=3D"c=
+olor:#999999; font-family:'helvetica' ,sans-serif; font-size:7.5pt">BMK Yaz=
+=C4=B1l=C4=B1m ve Dijital =C3=87=C3=B6z=C3=BCmler Dan=C4=B1=C5=9Fmanl=C4=B1=
+k Ltd. =C5=9Eti.</span></strong><br><span style=3D"color:#999999; font-fami=
+ly:'helvetica' ,sans-serif; font-size:7.5pt">Call &nbsp; &nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp; :&nbsp;&#43;90 216 340 2542</span></div><div style=3D"ba=
+ckground-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,0); font-family:'calibri=
+' ,sans-serif; font-size:11pt; font-style:normal; font-weight:400; line-hei=
+ght:8.25pt; margin:0cm; text-decoration-style:initial; text-indent:0px; tex=
+t-transform:none; white-space:normal; word-spacing:0px"><span style=3D"colo=
+r:#999999; font-family:'helvetica' ,sans-serif; font-size:7.5pt">Support&nb=
+sp;&nbsp; :&nbsp;</span><span style=3D"color:#0000cd"><u><span style=3D"fon=
+t-family:'helvetica' ,sans-serif; font-size:7.5pt"><a href=3D"mailto:suppor=
+t@internative.net" rel=3D"noopener noreferrer">support@internative.net</a><=
+/span></u></span><br><span style=3D"color:#999999; font-family:'helvetica' =
+,sans-serif; font-size:7.5pt">E=C4=9Fitim Mh. Ad=C4=B1m Sk. No:10-18 Orjin =
+=C4=B0=C5=9F Merkezi Kat 1 Daire 20, 34722 Kad=C4=B1k=C3=B6y / =C4=B0stanbu=
+l, TR</span></div><div style=3D"background-color:rgb(255 ,255 ,255); color:=
+rgb(0 ,0 ,0); font-family:'calibri' ,sans-serif; font-size:11pt; font-style=
+:normal; font-weight:400; line-height:8.25pt; margin:0cm; text-decoration-s=
+tyle:initial; text-indent:0px; text-transform:none; white-space:normal; wor=
+d-spacing:0px">&nbsp;</div><div style=3D"background-color:rgb(255 ,255 ,255=
+); color:rgb(0 ,0 ,0); font-family:'calibri' ,sans-serif; font-size:11pt; f=
+ont-style:normal; font-weight:400; line-height:8.25pt; margin:0cm; text-dec=
+oration-style:initial; text-indent:0px; text-transform:none; white-space:no=
+rmal; word-spacing:0px"><strong><span style=3D"color:#999999; font-family:'=
+helvetica' ,sans-serif; font-size:7.5pt">UK Office:</span></strong></div><d=
+iv style=3D"background-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,0); font-f=
+amily:'calibri' ,sans-serif; font-size:11pt; font-style:normal; font-weight=
+:400; line-height:8.25pt; margin:0cm; text-decoration-style:initial; text-i=
+ndent:0px; text-transform:none; white-space:normal; word-spacing:0px"><stro=
+ng style=3D"font-size:11pt"><span style=3D"color:#999999; font-family:'helv=
+etica' ,sans-serif; font-size:7.5pt">Internative Software &amp; Digital Sol=
+utions Ltd.</span></strong></div><div style=3D"background-color:rgb(255 ,25=
+5 ,255); color:rgb(0 ,0 ,0); font-family:'calibri' ,sans-serif; font-size:1=
+1pt; font-style:normal; font-weight:400; line-height:8.25pt; margin:0cm; te=
+xt-decoration-style:initial; text-indent:0px; text-transform:none; white-sp=
+ace:normal; word-spacing:0px"><span style=3D"color:#999999; font-family:'he=
+lvetica' ,sans-serif; font-size:7.5pt">Call&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; :&nbsp;&#43;44 7754 283854</span></div><div style=3D=
+"background-color:rgb(255 ,255 ,255); color:rgb(0 ,0 ,0); font-family:'cali=
+bri' ,sans-serif; font-size:11pt; font-style:normal; font-weight:400; line-=
+height:8.25pt; margin:0cm; text-decoration-style:initial; text-indent:0px; =
+text-transform:none; white-space:normal; word-spacing:0px"><span style=3D"c=
+olor:#999999; font-family:'helvetica' ,sans-serif; font-size:7.5pt">Support=
+&nbsp;&nbsp; :&nbsp;</span><u><span style=3D"font-family:'helvetica' ,sans-=
+serif; font-size:7.5pt"><a href=3D"mailto:support@internative.co.uk" rel=3D=
+"noopener noreferrer" style=3D"color:rgb(0 ,0 ,0)">support@internative.co.u=
+k</a></span></u><br><span style=3D"color:#999999; font-family:'helvetica' ,=
+sans-serif; font-size:7.5pt">71-75 Shelton Street, Covent Garden, London, W=
+C2H 9JQ, UK</span></div><div>&nbsp;</div>=

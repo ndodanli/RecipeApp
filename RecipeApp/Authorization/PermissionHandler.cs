@@ -31,8 +31,8 @@ namespace RecipeApp
             {
                 if (account == null)
                 {
-                    throw new Exception("You are not authorized");
                     context.Fail();
+                    throw new Exception("You are not authorized");
                 }
                 else
                 {
@@ -49,18 +49,21 @@ namespace RecipeApp
                     }
                     else
                     {
-                        throw new Exception("You are not authorized");
                         context.Fail();
+                        throw new Exception("You are not authorized");
                     }
                 }
                 return Task.CompletedTask;
             }
             catch (Exception e)
             {
-                httpContextAccessor.HttpContext.Response.StatusCode = 401;
-                httpContextAccessor.HttpContext.Response.ContentType = "application/json";
+                if (!httpContextAccessor.HttpContext.Response.HasStarted)
+                {
+                    httpContextAccessor.HttpContext.Response.StatusCode = 401;
+                    httpContextAccessor.HttpContext.Response.ContentType = "application/json";
 
-                httpContextAccessor.HttpContext.Response.WriteAsync(e.Message);
+                    httpContextAccessor.HttpContext.Response.WriteAsync(e.Message);
+                }
                 return Task.CompletedTask;
             }
         }

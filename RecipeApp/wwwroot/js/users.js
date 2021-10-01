@@ -32,6 +32,7 @@ function onDelete(e) {
             $("#" + e.target.id).parent().remove();
         },
         error: function (req, status, err) {
+            console.log(req)
             if (req.responseText)
                 alert(req.responseText)
         }

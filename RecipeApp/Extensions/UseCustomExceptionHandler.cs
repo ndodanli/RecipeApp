@@ -18,19 +18,22 @@ namespace RecipeApp.Extensions
             {
                 config.Run(async context =>
                 {
-                    context.Response.StatusCode = 500;
-                    context.Response.ContentType = "application/json";
-                    var error = context.Features.Get<IExceptionHandlerFeature>();
-
-                    if (error != null)
+                    if (context.Response.HasStarted)
                     {
-                        var ex = error.Error;
+                        context.Response.StatusCode = 500;
+                        context.Response.ContentType = "application/json";
+                        var error = context.Features.Get<IExceptionHandlerFeature>();
 
-                        ErrorDto errorDto = new ErrorDto();
+                        if (error != null)
+                        {
+                            var ex = error.Error;
 
-                        errorDto.Errors.Add("errors", new[] { ex.Message });
+                            ErrorDto errorDto = new ErrorDto();
 
-                        await context.Response.WriteAsync(JsonConvert.SerializeObject(errorDto.Errors));
+                            errorDto.Errors.Add("errors", new[] { ex.Message });
+
+                            await context.Response.WriteAsync(JsonConvert.SerializeObject(errorDto.Errors));
+                        }
                     }
                 });
             });

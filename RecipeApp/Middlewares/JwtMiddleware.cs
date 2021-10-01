@@ -90,8 +90,8 @@ namespace RecipeApp
             }
             catch (Exception)
             {
-                //If any other error happens.
-                context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+                if (!context.Response.HasStarted)
+                    context.Response.StatusCode = StatusCodes.Status500InternalServerError;
                 await context.Response.CompleteAsync();
             }
         }
