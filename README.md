@@ -27,6 +27,8 @@ Moderatör hesap bilgileri:
 
 >Kullanıcı parolası: moderator
 
+**Not:** Eğer MongoDB locale alınacaksa, uygulamaya admin ve moderator rollerini hesapları ile seedleyen bir data seeder yazılmıştır(tarifler için seed yapılmadı).
+
 **Moderatör özellikleri**
 
 - Yemek tarifi oluşturabilir, görebilir, güncelleyebilir ve silebilir.
@@ -40,7 +42,9 @@ Redis:
 
 **MongoDB**
 
-- MongoDB benim veri tabanıma bağlıdır, appsettings.json dosyasından değiştirilip locale alınabilir.
+- MongoDB benim veri tabanıma bağlıdır, appsettings.json dosyasından değiştirilip 
+
+e alınabilir.
 
 **Not:** Rollerin yetkileri metod bazlı belirlenebilir(örn. ControllerName1.MethodName1,ControllerName2,MethodName2,ControllerName3,MethodName3).
 
