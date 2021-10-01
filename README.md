@@ -38,4 +38,8 @@ Moderatör hesap bilgileri:
 Redis:
 >Configuration: 127.0.0.1:6379
 
+**MongoDB**
+
+-MongoDB benim veri tabanıma bağlıdır, appsettings.json dosyasından değiştirilip locale alınabilir.
+
 **Not:** Rollerin yetkileri metod bazlı belirlenebilir(örn. ControllerName1.MethodName1,ControllerName2,MethodName2,ControllerName3,MethodName3).
