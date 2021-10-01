@@ -40,6 +40,6 @@ Redis:
 
 **MongoDB**
 
--MongoDB benim veri tabanıma bağlıdır, appsettings.json dosyasından değiştirilip locale alınabilir.
+- MongoDB benim veri tabanıma bağlıdır, appsettings.json dosyasından değiştirilip locale alınabilir.
 
 **Not:** Rollerin yetkileri metod bazlı belirlenebilir(örn. ControllerName1.MethodName1,ControllerName2,MethodName2,ControllerName3,MethodName3).
