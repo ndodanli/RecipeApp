@@ -27,7 +27,7 @@ Moderatör hesap bilgileri:
 
 >Kullanıcı parolası: moderator
 
-**Not:** Eğer MongoDB locale alınacaksa, uygulamaya admin ve moderator rollerini hesapları ile seedleyen bir data seeder yazılmıştır(tarifler için seed yapılmadı).
+**Not:** MongoDB'nin locale alınmasına karşın, uygulamaya admin ve moderator rollerini hesapları ile seedleyen bir data seeder yazılmıştır(tarifler için seed yapılmadı).
 
 **Moderatör özellikleri**
 
@@ -44,8 +44,8 @@ Redis:
 
 - MongoDB benim veri tabanıma bağlıdır, appsettings.json dosyasından değiştirilip 
 
-e alınabilir.
+locale alınabilir.
 
-**Not:** Rollerin yetkileri metod bazlı belirlenebilir(örn. ControllerName1.MethodName1,ControllerName2,MethodName2,ControllerName3,MethodName3).
+**Not:** Rollerin yetkileri metod bazlı belirlenebilir(örn. ControllerName1.MethodName1,ControllerName2.MethodName2,ControllerName3.MethodName3).
 
-**Not:** Hataları görmek için pop-upları açmanız gerekiyor(Hatalar pop-up olarak gönderildi).
+**Not:** Hataları görmek için pop-upları açmanız gerekiyor(Hatalar pop-up olarak gönderildi, örn. yetkilendirme hataları).
